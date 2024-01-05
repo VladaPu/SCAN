@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Ferry";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Ferry"),
+         /* Если не получилось*/
+         url("/fonts/ferry_black.otf") format("otf"),
+  }
+.main{
+    margin-top: 45px;
+}
+.main__wrapper-auth{
+    width: 96vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.main__padlockImg{
+    position: absolute;
+    margin: -67px 0px 0px -56px;
+}
+.main__rightBox{
+    position: relative;
+    width: 480px;
+    box-shadow: 2px 2px 20px rgb(0 0 0 / 15%);
+    border-radius: 10px;
+    margin: 40px 70px 0px 0px;
+}
+.main__title{
+    font-family: 'Ferry', Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    width: 682px;
+    font-size: 40px;
+    text-transform: lowercase;
+    line-height: 48px;
+}
+.main__image{
+    margin-left: 50px;
+}
+.main__linkBox{
+    display: flex;
+    justify-content: space-between;
+    width: -webkit-fill-available;
+}
+@media (max-width:1270px) {
+    .main__wrapper-auth{
+       flex-direction: column;
+       align-items: center;
+    }
+}
+@media screen and (max-width:1270px) {
+    .main__leftBox{
+        position: relative;
+        display:flex;
+        justify-content: center;
+    }
+    .main__image{
+        margin-top: 60px;
+        align-self: center;  
+    }
+    .main__rightBox{
+        margin: 40px 0px 0px 0px;
+    }
+}
+@media screen and(max-width:680px) {
+    .main{
+        margin-top: 10px;
+    }
+    .main__title{
+       width: 66vw;
+       font-size: 22px;
+       line-height: 26px;
+       margin-bottom: 70px;
+    }
+    .main__padlockImg{
+        margin: -80px 0px 0px 70px;
+    }
+}
+@media screen and (max-width:600px) {
+    .main__rightBox{
+        width: 95%;
+    }
+}
+    

@@ -1,0 +1,11 @@
+.header {
+    margin: 0 auto;
+}
+.header__wrapper{
+    width: 96vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+

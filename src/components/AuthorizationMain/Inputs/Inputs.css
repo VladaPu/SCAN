@@ -1,0 +1,22 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: -webkit-fill-available;
+    gap: 15px;
+    margin-top: 40px;
+}
+.form__label{
+    color: #949494;
+}
+.form__loginInput{
+    height: 43px;
+    border-radius: 5px;
+    border: 2px solid #C7C7C7;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 5%);
+}
+.form__errText{
+    display: block;
+    color: tomato;
+    align-self: center;
+    margin: -8px auto 10px auto;
+}
